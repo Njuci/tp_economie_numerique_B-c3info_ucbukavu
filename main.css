@@ -138,7 +138,8 @@ body {
 .product-img {
   display: block;
   width: 100%;
-  min-height: 12rem;
+  height: 25rem;
+  object-fit: cover;
   transition: var(--mainTransition);
 }
 .img-container:hover .product-img {
